@@ -1,0 +1,15 @@
+
+/* All nav-link classes that are a child of nav-items
+I believe this class only appears in the nav-bar so it
+won't override any other CSS*/
+.nav-item > .nav-link {
+    color: #171d1a;
+    font-family: 'Nunito Sans', 'Regular';
+    font-size: 20px;
+}
+
+
+/* Hover colour change*/
+.nav-item > .nav-link:hover {
+    color: #bf3650;
+}
