@@ -1,3 +1,7 @@
+ /* Line at the bottom of nav bar */
+#nav-div {
+    border-bottom: solid 1px #171d1a;
+}
 
 /* All nav-link classes that are a child of nav-items
 I believe this class only appears in the nav-bar so it
@@ -13,3 +17,4 @@ won't override any other CSS*/
 .nav-item > .nav-link:hover {
     color: #bf3650;
 }
+
