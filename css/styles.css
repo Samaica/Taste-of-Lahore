@@ -66,7 +66,7 @@ button.button--traditionally-made {
     font-size: 25px;
     text-align: center;
     padding: 10px 20px;
-    background-color: black;
+    background-color: transparent;
     border: 2px solid #fcfbed;
     border-radius: 30px;
 }
@@ -84,3 +84,68 @@ button.button--traditionally-made:hover {
     border: 2px solid #317C33;
 }
 
+
+/****** Experience Lahore in NY CSS ******/
+
+/* May need to use a div selector when everything
+ comes together*/
+ body.body--experience-lahore-in-ny {
+    background-image: url(/assets/Archway-Mosque.png);
+}
+
+.div-body--experience-lahore-in-ny.container-wrapper {
+    position: relative;
+    display: grid;
+    
+}
+
+.content--experience-lahore-in-ny {
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    width: 450px;
+    color: #fcfbed ;
+ 
+    text-align: left;
+    
+}
+
+h1.title--experience-lahore-in-ny {
+    font-family: 'Scrivano' , 'Regular';
+    font-size: 90px;
+    width: 900px;
+}
+
+.div-text--experience-lahore-in-ny {
+    margin: 40px 0;
+}
+
+p.text--experience-lahore-in-ny {
+    font-family: 'Nunito Sans', 'Light';
+    font-size: 25px;
+}
+
+button.button--experience-lahore-in-ny {
+    width: 200px; /* set a width so it doesnt change upon hover */
+    color: #fcfbed;
+    font-family: 'Scrivano' , 'Regular';
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #fcfbed;
+    border-radius: 30px;
+}
+
+button.button--experience-lahore-in-ny:hover span {
+    display: none;
+}
+
+button.button--experience-lahore-in-ny:hover::before {
+    content: "CLICK HERE";
+} 
+
+button.button--experience-lahore-in-ny:hover {
+    background-color: #317C33;
+    border: 2px solid #317C33;
+}
