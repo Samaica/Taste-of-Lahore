@@ -1,3 +1,5 @@
+/***** Nav bar CSS *****/
+
  /* Line at the bottom of nav bar */
 #nav-div {
     border-bottom: solid 1px #171d1a;
@@ -16,5 +18,69 @@ won't override any other CSS*/
 /* Hover colour change*/
 .nav-item > .nav-link:hover {
     color: #bf3650;
+}
+
+ /****** Traditionally made CSS ******/
+
+/* May need to use a div selector when everything
+ comes together*/
+ body.body--traditionally-made {
+    background-image: url(/assets/Spoons\ of\ Spice\ Image.png);
+}
+
+.div-body--traditionally-made.container-wrapper {
+    position: relative;
+    display: grid;
+    
+}
+
+.content--traditionally-made {
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    width: 450px;
+    color: #fcfbed ;
+ 
+    text-align: left;
+    
+}
+
+h1.title--traditionally-made {
+    font-family: 'Scrivano' , 'Regular';
+    font-size: 90px;
+}
+
+.div-text--traditionally-made {
+    margin: 40px 0;
+}
+
+p.text--traditionally-made {
+    font-family: 'Nunito Sans', 'Light';
+    font-size: 25px;
+}
+
+button.button--traditionally-made {
+    width: 200px; /* set a width so it doesnt change upon hover */
+    color: #fcfbed;
+    font-family: 'Scrivano' , 'Regular';
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: black;
+    border: 2px solid #fcfbed;
+    border-radius: 30px;
+}
+
+button.button--traditionally-made:hover span {
+    display: none;
+}
+
+button.button--traditionally-made:hover::before {
+    content: "CLICK HERE";
+} 
+
+button.button--traditionally-made:hover {
+    background-color: #317C33;
+    border: 2px solid #317C33;
 }
 
