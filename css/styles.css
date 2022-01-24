@@ -89,8 +89,13 @@ button.button--traditionally-made:hover {
 
 /* May need to use a div selector when everything
  comes together*/
- body.body--experience-lahore-in-ny {
+ .body--experience-lahore-in-ny {
     background-image: url(/assets/Archway-Mosque.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 29em
+
 }
 
 .div-body--experience-lahore-in-ny.container-wrapper {
@@ -101,31 +106,31 @@ button.button--traditionally-made:hover {
 
 .content--experience-lahore-in-ny {
     position: absolute;
-    top: 200px;
+    /* top: 10%; */
+    bottom: 50%;
     left: 25%;
     width: 450px;
     color: #fcfbed ;
- 
     text-align: left;
     
 }
 
-h1.title--experience-lahore-in-ny {
+.title--experience-lahore-in-ny {
     font-family: 'Scrivano' , 'Regular';
-    font-size: 90px;
-    width: 900px;
+    font-size: 60px;
+    width: 500px;
 }
 
-.div-text--experience-lahore-in-ny {
+/* .div-text--experience-lahore-in-ny {
     margin: 40px 0;
-}
+} */
 
-p.text--experience-lahore-in-ny {
+.text--experience-lahore-in-ny {
     font-family: 'Nunito Sans', 'Light';
     font-size: 25px;
 }
 
-button.button--experience-lahore-in-ny {
+.button--experience-lahore-in-ny {
     width: 200px; /* set a width so it doesnt change upon hover */
     color: #fcfbed;
     font-family: 'Scrivano' , 'Regular';
