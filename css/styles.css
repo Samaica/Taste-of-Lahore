@@ -1,7 +1,7 @@
 /***** Nav bar CSS *****/
 
  /* Line at the bottom of nav bar */
-#nav-div {
+.navbar.navbar-expand-lg {
     border-bottom: solid 1px #171d1a;
 }
 
@@ -154,3 +154,40 @@ button.button--experience-lahore-in-ny:hover {
     background-color: #317C33;
     border: 2px solid #317C33;
 }
+
+
+ /******************* MENU PAGE **********************/
+
+ .body--menu-page {
+    background-image: url(/assets/Menu\ Page\ BG\ Image.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    display: grid;
+ }
+
+ .div--menu-page-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+ }
+
+ .menu-page-title {
+    width: 300px;
+    height: 200px;
+ }
+ 
+ .menu-page-moon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: -50%;
+    transform: translate(-95%, -50%);
+ }
