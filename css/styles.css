@@ -24,11 +24,17 @@ won't override any other CSS*/
 
 /* May need to use a div selector when everything
  comes together*/
- body.body--traditionally-made {
+ /* body.body--traditionally-made {
     background-image: url(/assets/Spoons\ of\ Spice\ Image.png);
-}
+} */
 
 .div-body--traditionally-made.container-wrapper {
+    background-image: url(/assets/Spoons\ of\ Spice\ Image.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
     position: relative;
     display: grid;
     
@@ -36,12 +42,12 @@ won't override any other CSS*/
 
 .content--traditionally-made {
     position: absolute;
-    top: 200px;
-    left: 25%;
     width: 450px;
     color: #fcfbed ;
- 
     text-align: left;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
     
 }
 
@@ -89,16 +95,22 @@ button.button--traditionally-made:hover {
 
 /* May need to use a div selector when everything
  comes together*/
- .body--experience-lahore-in-ny {
+ /* .body--experience-lahore-in-ny {
     background-image: url(/assets/Archway-Mosque.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
     padding-top: 29em
 
-}
+} */
 
 .div-body--experience-lahore-in-ny.container-wrapper {
+    background-image: url(/assets/Archway-Mosque.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
     position: relative;
     display: grid;
     
@@ -106,10 +118,9 @@ button.button--traditionally-made:hover {
 
 .content--experience-lahore-in-ny {
     position: absolute;
-    /* top: 10%; */
-    bottom: 50%;
-    left: 25%;
-    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-67%, -28%);
     color: #fcfbed ;
     text-align: left;
     
@@ -165,6 +176,7 @@ button.button--experience-lahore-in-ny:hover {
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     display: grid;
  }
